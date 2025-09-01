@@ -11,7 +11,7 @@ import java.util.Set;
 @AllArgsConstructor
 @Service
 public class UserService {
-    private final com.codewithmosh.store.users.UserRepository userRepository;
+    private final UserRepository userRepository;
     private final UserMapper userMapper;
     private final PasswordEncoder passwordEncoder;
 

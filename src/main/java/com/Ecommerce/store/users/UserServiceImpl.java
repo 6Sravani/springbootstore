@@ -1,6 +1,4 @@
-package com.Ecommerce.store.users
-
--commerce.store.users
+package com.Ecommerce.store.users;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.User;
@@ -14,7 +12,7 @@ import java.util.Collections;
 @AllArgsConstructor
 @Service
 public class UserServiceImpl implements UserDetailsService {
-    private final com.codewithmosh.store.users.UserRepository userRepository;
+    private final UserRepository userRepository;
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
