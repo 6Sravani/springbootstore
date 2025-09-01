@@ -8,7 +8,7 @@
         <version>3.4.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.codewithmosh</groupId>
+    <groupId>com.Ecommerce</groupId>
     <artifactId>store</artifactId>
     <version>1.0.0</version>
     <name>store</name>
